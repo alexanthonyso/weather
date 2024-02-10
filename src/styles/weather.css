@@ -1,0 +1,270 @@
+h3 {
+  font-size: 200px;
+  font-weight: 400;
+  margin-left: 30px;
+}
+
+h5 {
+  text-transform: uppercase;
+  margin-left: 60px;
+}
+
+.location {
+  font-size: 64px;
+  margin-left: 10px;
+}
+.country {
+  font-size: 30px;
+}
+
+.icon {
+  margin: 0 30px;
+}
+
+.icon p {
+  margin-left: 10px;
+}
+
+.weather {
+  position: fixed;
+  top: 0;
+}
+
+.background {
+  opacity: 70%;
+  position: relative;
+  z-index: -80;
+}
+
+.title {
+  position: fixed;
+  color: rgb(255, 255, 255);
+  margin-left: 70px;
+  font-weight: 500;
+  margin-top: 30px;
+  top: 0;
+}
+
+form {
+  /* position: absolute; */
+  /* z-index: 1; */
+  /* display: flex; */
+  margin-top: 20px;
+  /* flex-direction: row; */
+  /* justify-content: flex-end; */
+}
+
+input {
+  text-transform: uppercase;
+  /* border-radius: 10px; */
+  width: 30%;
+  /* margin-right: 5%; */
+  /* display: flex; */
+  /* margin-right: 10px; */
+  padding: 15px 0px;
+  background: rgb(255 255 255);
+  border: none;
+  outline: none;
+  color: #000000;
+}
+
+input::placeholder,
+input[type="text"] {
+  padding-left: 5px;
+}
+
+.info {
+  margin-left: 90px;
+  margin-top: 598px;
+  flex-direction: row;
+  display: flex;
+  background-color: rgb(255 255 255 / 70%);
+  align-items: center;
+}
+
+.info2 {
+  position: relative;
+  display: flex;
+  margin-left: 63%;
+  background-color: rgb(227 227 227 / 90%);
+  height: 100%;
+  flex-direction: column;
+}
+
+.infotext {
+  color: black;
+  font-size: 20px;
+  width: 100%;
+  height: 100vh;
+}
+
+.infotext h4 {
+  margin-bottom: 81px;
+  margin-top: 130px;
+  margin-left: 60px;
+}
+
+.logo {
+  position: absolute;
+  margin-left: 73%;
+
+  margin-top: 10px;
+  border: none;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.inline p {
+  margin-right: 10px;
+  margin-left: 60px;
+}
+
+.forecast-item {
+  display: flex;
+  /* display: inline-block; */
+  align-items: center;
+  /* vertical-align: middle; */
+  text-transform: uppercase;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-left: 60px;
+}
+
+.forecast p {
+  display: flex;
+}
+
+.forecast h4 {
+  margin-top: 100px;
+}
+
+.suggestions {
+  display: flex;
+  width: 30%;
+
+  gap: 25px;
+  background: rgb(255 255 255);
+  flex-direction: column;
+  padding: 30px 0px;
+  border-radius: 0 0 10px 10px;
+}
+
+.suggestions li {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.country-flag {
+  width: 20px;
+  height: 15px;
+  margin-left: 5px;
+}
+
+.country-flag2 {
+  width: 32px;
+  height: 24px;
+  margin-left: 5px;
+  display: flex;
+}
+
+.formcontainer {
+  position: absolute;
+  z-index: 1;
+  width: 80%;
+  margin-left: 70%;
+}
+.formcontainer ul {
+  position: absolute;
+  z-index: 1;
+
+  padding-left: 5px;
+}
+
+@media screen and (max-width: 1352px) {
+  .logo {
+    margin-left: 71%;
+  }
+
+  .info {
+    margin-left: 50px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .info {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 1229px) {
+  .info {
+    margin-left: 10px;
+  }
+
+  @media screen and (max-width: 1219px) {
+    .info {
+      margin-top: 138px;
+    }
+    .info2 {
+      margin-left: 0%;
+      margin-top: 250px;
+    }
+
+    .inline {
+      margin-top: 0%;
+    }
+
+    .formcontainer {
+      position: relative;
+    }
+
+    .logo {
+      margin-left: 47%;
+    }
+    .weather {
+      position: absolute;
+      top: 0;
+      margin-left: 5%;
+    }
+
+    h3 {
+      font-size: 100px;
+    }
+
+    .infotext h4 {
+      margin-top: 47px;
+    }
+    .title {
+      position: absolute;
+    }
+  }
+}
+@media screen and (max-width: 702px) {
+ 
+  .location {
+    font-size: 44px;
+  }
+}
+@media screen and (max-width: 578px) {
+  .info {
+    width: auto;
+  }
+
+  .location {
+    font-size: 34px;
+  }
+}
+@media screen and (max-width: 528px) {
+  .info {
+    width: auto;
+  }
+
+  .location {
+    font-size: 24px;
+  }
+}
